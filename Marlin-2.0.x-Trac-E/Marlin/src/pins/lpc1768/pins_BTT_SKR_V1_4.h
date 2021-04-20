@@ -41,9 +41,9 @@
 // TMC StallGuard DIAG pins
 //
 #define X_DIAG_PIN                         P1_29   // X-STOP
-#define X2_DIAG_PIN                         P1_28  // Y-STOP
+#define X2_DIAG_PIN                        P1_28   // Y-STOP
 #define Y_DIAG_PIN                         P1_27   // Z-STOP
-#define Z_DIAG_PIN                        P1_26    // E0DET
+#define Z_DIAG_PIN                         P1_26   // E0DET
 #define Z2_DIAG_PIN                        P1_25   // E1DET
 
 #define E0_DIAG_PIN                        P1_0    
@@ -126,11 +126,11 @@
   #define X_CS_PIN                         P1_10
 #endif
 
-#define X2_STEP_PIN                         P0_19
-#define X2_DIR_PIN                          P0_20
-#define X2_ENABLE_PIN                       P2_08
+#define X2_STEP_PIN                        P0_19
+#define X2_DIR_PIN                         P0_20
+#define X2_ENABLE_PIN                      P2_08
 #ifndef X2_CS_PIN
-  #define X2_CS_PIN                         P1_09
+  #define X2_CS_PIN                        P1_09
 #endif
 
 #define Y_STEP_PIN                         P0_22
@@ -140,11 +140,11 @@
   #define Y_CS_PIN                         P1_08
 #endif
 
-#define Z_STEP_PIN                        P2_13
-#define Z_DIR_PIN                         P0_11
-#define Z_ENABLE_PIN                      P2_12
+#define Z_STEP_PIN                         P2_13
+#define Z_DIR_PIN                          P0_11
+#define Z_ENABLE_PIN                       P2_12
 #ifndef Z_CS_PIN
-  #define Z_CS_PIN                        P1_04
+  #define Z_CS_PIN                         P1_04
 #endif
 
 #define Z2_STEP_PIN                        P1_15
@@ -161,9 +161,9 @@
   #define E0_CS_PIN                        P1_31
 #endif
 
-#define E1_STEP_PIN                        P3_25
-#define E1_DIR_PIN                         P3_26
-#define E1_ENABLE_PIN                      P0_17
+#define E1_STEP_PIN                        P1_23
+#define E1_DIR_PIN                         P1_21
+#define E1_ENABLE_PIN                      P1_19
 #ifndef E1_CS_PIN
   #define E1_CS_PIN                        P1_31
 #endif
