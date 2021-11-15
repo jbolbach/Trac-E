@@ -253,14 +253,14 @@
 #if HAS_SPI_LCD
   #if ENABLED(ANET_FULL_GRAPHICS_LCD)
 
-    #define LCD_PINS_RS                    P1_23
+    #define LCD_PINS_RS                    P1_0
 
     //#define BTN_EN1                        P1_20
     //#define BTN_EN2                        P1_22
     //#define BTN_ENC                        P1_18
 
-    #define LCD_PINS_ENABLE                P1_21
-    #define LCD_PINS_D4                    P1_19
+    #define LCD_PINS_ENABLE                P1_0
+    #define LCD_PINS_D4                    P1_0
 
   #elif ENABLED(CR10_STOCKDISPLAY)
     #define BTN_ENC                        P0_28  // (58) open-drain
@@ -269,8 +269,8 @@
     //#define BTN_EN1                        P1_18
     //#define BTN_EN2                        P1_20
 
-    #define LCD_PINS_ENABLE                P1_23
-    #define LCD_PINS_D4                    P1_21
+    #define LCD_PINS_ENABLE                P1_0
+    #define LCD_PINS_D4                    P1_0
 
   #elif ENABLED(ENDER2_STOCKDISPLAY)
 
@@ -290,9 +290,9 @@
     #define BTN_ENC                        P0_28
 
     //#define DOGLCD_CS                      P1_22
-    #define DOGLCD_A0                      P1_21
+    #define DOGLCD_A0                      P1_0
     #define DOGLCD_SCK                     P1_30
-    #define DOGLCD_MOSI                    P1_23
+    #define DOGLCD_MOSI                    P1_0
     #define FORCE_SOFT_SPI
     #define LCD_BACKLIGHT_PIN              -1
 
@@ -301,16 +301,16 @@
     //#define ONBOARD_SD_CS_PIN            -1
 
     //#define TFT_CS_PIN                     P1_22
-    #define TFT_A0_PIN                     P1_23
-    #define TFT_DC_PIN                     P1_23
+    #define TFT_A0_PIN                     P1_0
+    #define TFT_DC_PIN                     P1_0
     #define TFT_MISO_PIN                   P0_17
     //#define TFT_BACKLIGHT_PIN              P1_18
-    #define TFT_RESET_PIN                  P1_19
+    #define TFT_RESET_PIN                  P1_0
 
     #define LPC_HW_SPI_DEV                     0
     #define LCD_USE_DMA_SPI
 
-    #define TOUCH_INT_PIN                  P1_21
+    #define TOUCH_INT_PIN                  P1_0
     //#define TOUCH_CS_PIN                   P1_20
     #define TOUCH_BUTTONS_HW_SPI
     #define TOUCH_BUTTONS_HW_SPI_DEVICE        1
@@ -331,7 +331,7 @@
   #else
 
     #define BTN_ENC                        P0_28  // (58) open-drain
-    #define LCD_PINS_RS                    P1_19
+    #define LCD_PINS_RS                    P1_0
 
     #define BTN_EN1                        P3_26  // (31) J3-2 & AUX-4
     #define BTN_EN2                        P3_25  // (33) J3-4 & AUX-4
@@ -347,7 +347,7 @@
 
     #if ENABLED(FYSETC_MINI_12864)
       //#define DOGLCD_CS                    P1_18
-      #define DOGLCD_A0                    P1_19
+      #define DOGLCD_A0                    P1_0
       //#define DOGLCD_SCK                   P0_15
       //#define DOGLCD_MOSI                  P0_00
 
@@ -360,22 +360,22 @@
 
       #if EITHER(FYSETC_MINI_12864_1_2, FYSETC_MINI_12864_2_0)
         #ifndef RGB_LED_R_PIN
-          #define RGB_LED_R_PIN            P1_21
+          #define RGB_LED_R_PIN            P1_0
         #endif
         #ifndef RGB_LED_G_PIN
          // #define RGB_LED_G_PIN            P1_22
         #endif
         #ifndef RGB_LED_B_PIN
-          #define RGB_LED_B_PIN            P1_23
+          #define RGB_LED_B_PIN            P1_0
         #endif
       #elif ENABLED(FYSETC_MINI_12864_2_1)
-        #define NEOPIXEL_PIN               P1_21
+        #define NEOPIXEL_PIN               P1_0
       #endif
 
     #else                                         // !FYSETC_MINI_12864
 
       #if ENABLED(MKS_MINI_12864)
-        #define DOGLCD_CS                  P1_21
+        #define DOGLCD_CS                  P1_0
         //#define DOGLCD_A0                  P1_22
         //#define DOGLCD_SCK                 P0_15
         //#define DOGLCD_MOSI                P0_00
@@ -383,9 +383,9 @@
       #endif
 
       #if ENABLED(ULTIPANEL)
-        #define LCD_PINS_D5                P1_21
+        #define LCD_PINS_D5                P1_0
        // #define LCD_PINS_D6                P1_22
-        #define LCD_PINS_D7                P1_23
+        #define LCD_PINS_D7                P1_0
       #endif
 
     #endif // !FYSETC_MINI_12864
