@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nas4free>
+	<version>37</version>
+	<lastchange>1651366418</lastchange>
+	<system>
+		<hostname>nsmhpcnas1</hostname>
+		<domain>uh.utoledo.edu</domain>
+		<dnsserver/>
+		<ipv6dnsserver/>
+		<username>admin</username>
+		<password>$6$D3o/JxW6xytEEeCD$.QrudL7l5MdPYTXvynsK20mZDxXFX8TQh5fcJZPHU9OdeLPaSojz1.YQ8ra/BgiSKkMkBRqK6Bxne2/bZDbrD/</password>
+		<timezone>America/Detroit</timezone>
+		<datetimeformat>l F d H:i:s T Y</datetimeformat>
+		<language>auto</language>
+		<ntp>
+			<timeservers>pool.ntp.org</timeservers>
+			<updateinterval>300</updateinterval>
+			<enable type="bool">1</enable>
+		</ntp>
+		<webgui>
+			<protocol>http</protocol>
+			<certificate>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlFT1RDQ0F5R2dBd0lCQWdJSkFQUnVoc3FVRWdKcE1BMEdDU3FHU0liM0RRRUJDd1VBTUhBeEN6QUpCZ05WDQpCQVlUQWtwUU1STXdFUVlEVlFRSUV3cFRiMjFsTFZOMFlYUmxNUkV3RHdZRFZRUUtFd2hPUVZNMFJuSmxaVEVYDQpNQlVHQTFVRUF4TU9ibUZ6TkdaeVpXVXViRzlqWVd3eElEQWVCZ2txaGtpRzl3MEJDUUVXRVdsdVptOUFibUZ6DQpOR1p5WldVdWIzSm5NQjRYRFRFME1USXdNekF3TURJd01sb1hEVE0wTVRJd016QXdNREl3TWxvd2NERUxNQWtHDQpBMVVFQmhNQ1NsQXhFekFSQmdOVkJBZ1RDbE52YldVdFUzUmhkR1V4RVRBUEJnTlZCQW9UQ0U1QlV6UkdjbVZsDQpNUmN3RlFZRFZRUURFdzV1WVhNMFpuSmxaUzVzYjJOaGJERWdNQjRHQ1NxR1NJYjNEUUVKQVJZUmFXNW1iMEJ1DQpZWE0wWm5KbFpTNXZjbWN3Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLQW9JQkFRQ3RqVTRnDQpWY1hWSG1BUzBVbW5mRzZ0K050N2JzZ3Y1TytSR3dRa1NSVk0rdTZ0d0dZc2Jmck4zSHpNV3I1elBHUGJxNU9kDQpiN1JZa0plVVBIM1kxRXhoMlUwNVA5YmorWkpXVGxrTXZSbXVJU2hlZWJ2Qlp2WjNlQXhuaC9IWVozWDVabisyDQpibVR0bzVTOVRNMXNoeEFtenNGdVBMZFRuSFhRWjdWZzl4VHZXNFYvUklMWGZNQ3hjVUtwVjZyQjVpN1BjVW9SDQpmNWErNEpWWjBNMlVPdTZSdllHdmQvT09yUkhWbEd0cUpIclBiOVo1ODBkMFFzOCt4cVgzWThHc3l2VmYrTUJtDQpycmQ1UzZqNGdSWlpGeUJzeS9QcGhEcWt0bks2VHBjMlN1VE5xbWtLd0JadTZyZzlDNTB4a011dVp5dFA3UkpRDQpYS3lNVWs3bHg2MU1Na0xSQWdNQkFBR2pnZFV3Z2RJd0hRWURWUjBPQkJZRUZHcEZWMHV6RGJYK3dNc3FjQkVFDQpJOTArMER1dE1JR2lCZ05WSFNNRWdab3dnWmVBRkdwRlYwdXpEYlgrd01zcWNCRUVJOTArMER1dG9YU2tjakJ3DQpNUXN3Q1FZRFZRUUdFd0pLVURFVE1CRUdBMVVFQ0JNS1UyOXRaUzFUZEdGMFpURVJNQThHQTFVRUNoTUlUa0ZUDQpORVp5WldVeEZ6QVZCZ05WQkFNVERtNWhjelJtY21WbExteHZZMkZzTVNBd0hnWUpLb1pJaHZjTkFRa0JGaEZwDQpibVp2UUc1aGN6Um1jbVZsTG05eVo0SUpBUFJ1aHNxVUVnSnBNQXdHQTFVZEV3UUZNQU1CQWY4d0RRWUpLb1pJDQpodmNOQVFFTEJRQURnZ0VCQUQ3aUxLaWVsRHBVVk9BWGVCeDk0MDVmZ0p4ZUtLVXZUMDVBNWtSQVhTanFnYkdjDQp2eWkySUpWaTNadlV4OWJtL3RyME5MclhQaVBMRlU5T3pTd0tQQXJnbGdjY2JKbDlBV0xTN3d3RTdaQzRnTTE5DQpBSmYyR09RcEwzYnoyaXk0TTBkdGJjUnBHdDRHV2szdDZ6NXozZTdJblNaNDdTcWhtbVNIekUwdTlhWTRJUWZwDQovVHJ1ZTBVYTVYNGJsVUhvTnhVb2xmQ1ptdTU3VkZpWlJLSlhEZGhVSHFKbEhMT1BUYmxtZWZtSTg3RVhDTjFBDQo5YWIyVEhWWVZhSnlVM2p5VUo3by9xNmtzYlB5UDlTeFBSZCsvSmszbHVJemp4V1NHRXZoNDhZc0dlWWo2MVN1DQpkVUZoUWZ6S3FzeXNUN21ZQ1NuL1RqUkpnYnZOaWpVaGZiemtMZUE9DQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t</certificate>
+			<privatekey>LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQ0KTUlJRXBRSUJBQUtDQVFFQXJZMU9JRlhGMVI1Z0V0RkpwM3h1cmZqYmUyN0lMK1R2a1JzRUpFa1ZUUHJ1cmNCbQ0KTEczNnpkeDh6RnErY3p4ajI2dVRuVyswV0pDWGxEeDkyTlJNWWRsTk9UL1c0L21TVms1WkRMMFpyaUVvWG5tNw0Kd1diMmQzZ01aNGZ4MkdkMStXWi90bTVrN2FPVXZVek5iSWNRSnM3QmJqeTNVNXgxMEdlMVlQY1U3MXVGZjBTQw0KMTN6QXNYRkNxVmVxd2VZdXozRktFWCtXdnVDVldkRE5sRHJ1a2IyQnIzZnpqcTBSMVpScmFpUjZ6Mi9XZWZOSA0KZEVMUFBzYWw5MlBCck1yMVgvakFacTYzZVV1bytJRVdXUmNnYk12ejZZUTZwTFp5dWs2WE5rcmt6YXBwQ3NBVw0KYnVxNFBRdWRNWkRMcm1jclQrMFNVRnlzakZKTzVjZXRUREpDMFFJREFRQUJBb0lCQVFDSWU2NnNDU2dhVU5mMw0KRkhXYTdHVlNGWG50bVJKL2I4ZmkwbDh3ZGZUMVpBVmR5UWZRK3ZDWkFrTjJwZ3BPTDNqTVlTTW1WWmw3YU1KNw0KeGhLbCtWYlVRSUxWZWRueDBPdi9TWUFJWDVJWmVXUDQ0RDBDZklscExKUjh1dEU3Z1NtcTU2dVorVGtRRld1OA0KYnZEQjMzbVpPMUdzOHJ5dFdVYmhqUjE3MHZPNHczR1pOQUk2VHl4K3NuZnE5bklUTkY4VjFPcGxMKzMrUWduQw0KU3JHRjFRek1jTUJnckQ3RGVGeElyN0l1UGZka1czd3dlZzFaL1VjZXVrM3hMaFM2Ly9kcHVOT3dGQjVrK0Nwcg0KdnNpWGFxSTl4cDFhZ0lJaXJOam4vbWlQMGo0Y00zUTFqcDFRZUk4K2h0NWIxaGRsYndwTzJmMit3MkFnWlU3Vg0KNzdjVUF5ZHRBb0dCQU4vV1AxSi9DenAxOG9DcFdudVU0Sk5oYlhpV09ETnYrcDRpbHpFZWh6M1Y1OUtZS3Y2dw0KaXJUSEZaZzR6WEZvNWhxcjY3Yk90SExsRk5SeFNmQWlzNGxFUm9FUWpuemdUeFl3ZFB6cm15dFB2eW8yWndISA0KWnB2Y2x5VU9YUlU5MzRDTnkyMkQwRHNON0Z5eUZEa0FBZ3hhTHY1ZXRETFpCS2ZjaGJ3WWhadDNBb0dCQU1aOQ0KV0szTVdwODQrMkp6VUVpc2ZaMjVPaGZCZVBRdTJ2VmZESklBV3lOMkx1RVpDVGZFSlV1YUdlWWMzcXBneVdZNw0KU1BLdXNVVGhkL0EybFEyU1VFWVlyMTFNYTg1ZVp0Wjd6bGkxS3gvWDhESlEvOTBEQWVNMXkveTFIREx4QkJ6RA0KRHJQNnpoMjRnSDBic0t2KytXdWFYdmc2ak1UMmxlN0k3a1ZuMjVYM0FvR0JBTlplak9TSU1ZdTZuQlltbXphUg0KL1lhSW4xd0dtaXFCQ3dkWjMyeTJiUldHZisvTHRobVhvQy9FSHVWYk9UNXRGVHJqL2VwbENxS2l6SkV0TW4rZA0KN0U0QktuaS9ENGQvRjU4THAyNzJnZlEzK3NBRnZCOFRCaTB0VlQrekF1aXVDaGhITkZWZEVSY05uWm1sSHdMOA0KQS9vcWdLa3lyK2VtdWZPOW1nTHJoVUcvQW9HQVo0YWRLQmo3OHl2L1Fid3ZWWmhSOUYvVnd1b3dNZnYyVENDRg0KSitsem42MVdpaVZLdjRGWWluUVhxZ1BJeDBpd0F0aE5GZmF6a3QrZWRQV2pERzhSMjEyb3FacmdaOFNwRXBtRQ0KYUpRbHAvZ3kyYXVScUM2WFgzQ0JzbzZyNUkzOHZSdW5vWXZnMFhPWDRLaitudGJnTkpWUmoxcktiVGpIdnNHaQ0KTlNVVVRNVUNnWUVBdnZrZFV5UkU0R3IrWDR3V0pOYmZYcEplRFBwSndHS2RrSWJmeXJzUEVSWUg5ejNrclZVNA0KalZrVUtZUjdGYXFzclRMdGFraWs1VXZ2T1V5dzVVYkoxZW54aHVZOWdYdklmMkZUTzhjUEJqUjhDN3RSSTRRQg0KYmRpaTV5THpGQXBaRi85cHptaW15QU5rckp6WldTMFg3MFFtU1V1OS8vMnluNU9vM3VKa2JIVT0NCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0t</privatekey>
+			<port/>
+			<hostsallow/>
+		</webgui>
+		<motd>V2VsY29tZSB0byBOQVM0RnJlZSENCg==</motd>
+		<pwmode>hiadaptive</pwmode>
+		<pwmax/>
+		<pwmin/>
+		<tune/>
+		<swap>
+			<type>file</type>
+		</swap>
+		<proxy>
+			<http>
+				<address>proxy</address>
+				<port>8080</port>
+				<username/>
+				<password/>
+			</http>
+			<ftp>
+				<address>proxy</address>
+				<port>8080</port>
+				<username/>
+				<password/>
+			</ftp>
+		</proxy>
+		<email>
+			<server>bach5.uh.utoledo.edu</server>
+			<port>25</port>
+			<tls_certcheck type="bool">1</tls_certcheck>
+			<username>jason@bach5.uh.utoledo.edu</username>
+			<password>T1go2t1Ilb</password>
+			<from>jason.bolbach@utoledo.edu</from>
+			<authmethod>plain</authmethod>
+			<sendto>jason.bolbach@utoledo.edu</sendto>
+			<auth type="bool">1</auth>
+			<tls_trust_file/>
+			<tls_fingerprint/>
+			<tls_crl_file/>
+			<tls_cert_file/>
+			<tls_key_file/>
+		</email>
+		<loaderconf>
+			<param>
+				<uuid>d68b8192-ca70-45ad-b312-c61715ac1c27</uuid>
+				<name>ipmi_load</name>
+				<value>YES</value>
+				<comment>IPMItool Server Management Utility</comment>
+			</param>
+			<param>
+				<uuid>938a66c6-fe89-4e2c-8e07-ad0aac8db511</uuid>
+				<name>vfs.zfs.arc_max</name>
+				<value>2G</value>
+				<comment>ZFS maximum ARC size</comment>
+			</param>
+			<param>
+				<uuid>2f380ee0-4b3f-440e-9ade-ad346c7f58d1</uuid>
+				<name>vfs.zfs.arc_min</name>
+				<value>1G</value>
+				<comment>ZFS minimum ARC size</comment>
+			</param>
+			<param>
+				<uuid>e1583f30-44da-4fc3-b726-b650dad74aee</uuid>
+				<name>vfs.zfs.prefetch_disable</name>
+				<value>1</value>
+				<comment>ZFS prefech disable</comment>
+			</param>
+		</loaderconf>
+		<rcconf>
+			<param>
+				<uuid>f69687d9-acdf-42d9-bd27-04486068874b</uuid>
+				<name>powerd_flags</name>
+				<value>-a hiadaptive -b hiadaptive -n hiadaptive</value>
+				<comment>System power control options</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>1c2a4807-9969-42bc-8500-ba234e33a3f5</uuid>
+				<name>varsize</name>
+				<value>512m</value>
+				<comment>Default /var size</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>3ab45cfd-9ea5-4295-98c8-bebc7603332e</uuid>
+				<name>vartmpsize</name>
+				<value>256m</value>
+				<comment>Default /var/tmp size</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>b67e6ffd-169d-493a-9197-155a9ae84582</uuid>
+				<name>fuppes_logfile</name>
+				<value>/var/log/fuppes.log</value>
+				<comment>Default log file</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>0b5cbdf6-0a84-4806-b85c-6605d38c7008</uuid>
+				<name>mtdaapd_logfile</name>
+				<value>/var/log/mt-daapd.log</value>
+				<comment>Default log file</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>40fe3290-51ac-4a70-b03e-a5613b981be4</uuid>
+				<name>rsync_client_logfile</name>
+				<value>/var/log/rsync_client.log</value>
+				<comment>Default log file</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>f52094cc-2bb8-4bc2-be39-76bce3fe1612</uuid>
+				<name>rsync_local_logfile</name>
+				<value>/var/log/rsync_local.log</value>
+				<comment>Default log file</comment>
+				<enable/>
+			</param>
+		</rcconf>
+		<sysctl>
+			<param>
+				<enable/>
+				<uuid>2f71d182-095e-11de-8303-0011951cd231</uuid>
+				<name>kern.coredump</name>
+				<value>0</value>
+				<comment>Disable core dump</comment>
+			</param>
+			<param>
+				<uuid>2a44ee73-23b7-4aed-be91-11e8230bc1e1</uuid>
+				<name>hw.acpi.power_button_state</name>
+				<value>NONE</value>
+				<comment>Disable power button</comment>
+			</param>
+			<param>
+				<uuid>d25eb28e-a719-4f07-af4e-00841fd3bd42</uuid>
+				<name>net.inet.tcp.delayed_ack</name>
+				<value>1</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>fdf2ad39-8839-402f-ae71-b6bbe00f35e2</uuid>
+				<name>net.inet.tcp.rfc1323</name>
+				<value>1</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>c8ecaad7-0da8-4042-9248-95de2b39695d</uuid>
+				<name>net.inet.tcp.sendspace</name>
+				<value>131072</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>69f639d1-6ed4-4189-ad0b-9bb3073bb728</uuid>
+				<name>net.inet.tcp.recvspace</name>
+				<value>131072</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>7eb21345-5732-46d0-b720-5161b502b807</uuid>
+				<name>net.inet.tcp.sendbuf_max</name>
+				<value>4194304</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>ef39320f-ec3d-403d-a947-946cdf3e7438</uuid>
+				<name>net.inet.tcp.sendbuf_inc</name>
+				<value>131072</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>42274d44-af41-4e37-b0fc-186bb2e4729a</uuid>
+				<name>net.inet.tcp.sendbuf_auto</name>
+				<value>1</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>dd570d75-ca14-4f9f-9a41-66abfb95b929</uuid>
+				<name>net.inet.tcp.recvbuf_max</name>
+				<value>4194304</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>c1ef4e9f-0a3e-4ae0-b903-056392d121e1</uuid>
+				<name>net.inet.tcp.recvbuf_inc</name>
+				<value>131070</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>d6b049e9-2aef-4dbf-8bd5-b8fca087a97d</uuid>
+				<name>net.inet.tcp.recvbuf_auto</name>
+				<value>1</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>c53babac-1619-4d1c-9fa6-0288480efb48</uuid>
+				<name>net.inet.udp.recvspace</name>
+				<value>65536</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>1300d0f3-bc62-4e2e-b307-54bd25ca885d</uuid>
+				<name>net.inet.udp.maxdgram</name>
+				<value>57344</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>ee1aae55-5add-4d7d-b656-9df9319f1297</uuid>
+				<name>net.local.stream.recvspace</name>
+				<value>65536</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>14068e6e-28b8-49eb-b2b0-385f53f60e74</uuid>
+				<name>net.local.stream.sendspace</name>
+				<value>65536</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>487bc391-ba1b-48e7-b513-8d0da6a4f36b</uuid>
+				<name>kern.ipc.maxsockbuf</name>
+				<value>16777216</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>cff93696-cf5d-4edf-8aa2-dd19910b7eae</uuid>
+				<name>kern.ipc.somaxconn</name>
+				<value>8192</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>2e1e5005-895b-4f20-bd6c-ab5c85bc494b</uuid>
+				<name>kern.ipc.nmbclusters</name>
+				<value>131072</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>d9f1625d-5de5-400a-961c-59da3e616388</uuid>
+				<name>kern.ipc.nmbjumbop</name>
+				<value>131072</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>d831105a-e105-4735-895e-5af035a631a4</uuid>
+				<name>kern.ipc.nmbjumbo9</name>
+				<value>32768</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>160234ee-1e1a-45e0-9bfa-0bb541d6393e</uuid>
+				<name>kern.ipc.nmbjumbo16</name>
+				<value>16384</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>5867a59c-5332-4589-a9cb-4510f1405901</uuid>
+				<name>kern.maxfiles</name>
+				<value>6289573</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>7ca96b1d-d150-4d5b-921e-c232af73ab14</uuid>
+				<name>net.inet.icmp.icmplim</name>
+				<value>300</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>68981261-fa0f-4661-acb7-ffc719b7c4e8</uuid>
+				<name>net.inet.icmp.icmplim_output</name>
+				<value>1</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>78f3e99f-613e-40fb-8336-a84302445f6f</uuid>
+				<name>net.inet.tcp.path_mtu_discovery</name>
+				<value>0</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>b806f74e-921c-4c65-ba6f-81d3904dad27</uuid>
+				<name>hw.intr_storm_threshold</name>
+				<value>9000</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+			<param>
+				<uuid>c527bec2-7829-49d8-9ca8-7c2e62842db1</uuid>
+				<name>vfs.zfs.l2arc_noprefetch</name>
+				<value>0</value>
+				<comment>Allow streaming/sequential reads to be cached</comment>
+			</param>
+			<param>
+				<uuid>69c24ba3-ba86-4c76-854d-b0c5e027941e</uuid>
+				<name>vfs.zfs.min_auto_ashift</name>
+				<value>12</value>
+				<comment>System tuning</comment>
+				<enable/>
+			</param>
+		</sysctl>
+		<syslogconf>
+			<param>
+				<uuid>43b57288-90c1-44ff-91f7-22e5f5b9bbbe</uuid>
+				<facility>console</facility>
+				<level>debug</level>
+				<value>/dev/console</value>
+				<comment/>
+			</param>
+		</syslogconf>
+		<hostsacl>
+			<rule>#ftpd  : xxx.xxx.xxx.xxx : deny</rule>
+			<rule>#sshd : .example.com : deny</rule>
+			<rule>#in.tftpd : xxx.xxx.xxx.xxx : deny</rule>
+			<rule>#bsnmpd : xxx.xxx.xxx.xxx : deny</rule>
+			<rule>ALL : ALL : allow</rule>
+		</hostsacl>
+		<usermanagement>
+			<user>
+				<uuid>60c4bfb1-7c3c-4535-800c-2b17eeae9369</uuid>
+				<name>transmission</name>
+				<id>999</id>
+				<primarygroup>999</primarygroup>
+				<group>50</group>
+				<extraoptions>-m -w random -c &quot;Transmission Daemon&quot;</extraoptions>
+			</user>
+			<user>
+				<uuid>132a0a60-a16d-4244-ba04-09312adda744</uuid>
+				<name>dlna</name>
+				<id>933</id>
+				<primarygroup>933</primarygroup>
+				<extraoptions>-c &quot;DLNA Daemon&quot; -d /nonexistent -s /usr/sbin/nologin</extraoptions>
+			</user>
+			<user>
+				<uuid>715997e1-b2eb-493d-86cf-c7d217998a67</uuid>
+				<name>vboxusers</name>
+				<id>920</id>
+				<primarygroup>920</primarygroup>
+				<extraoptions>-c &quot;Virtualbox user&quot; -d /nonexistent -s /usr/sbin/nologin</extraoptions>
+			</user>
+			<user>
+				<uuid>8937d051-f1b4-4048-8207-c73e81d5d364</uuid>
+				<name>syncthing</name>
+				<id>983</id>
+				<primarygroup>983</primarygroup>
+				<extraoptions>-c &quot;Syncthing Daemon&quot; -d /var/tmp/syncthing -s /usr/sbin/nologin</extraoptions>
+			</user>
+			<group>
+				<uuid>e8cc78b8-7c3d-46de-a34c-11b1c260a37e</uuid>
+				<id>999</id>
+				<name>transmission</name>
+			</group>
+			<group>
+				<uuid>ab0ee675-e8d1-4052-b7c2-e6b46c918eb8</uuid>
+				<id>933</id>
+				<name>dlna</name>
+			</group>
+			<group>
+				<uuid>235a1033-f7ee-443a-8c55-6bea64d5139e</uuid>
+				<id>920</id>
+				<name>vboxusers</name>
+			</group>
+			<group>
+				<uuid>6f5c8dd0-4c98-4ccf-8a18-64ad5e8e067f</uuid>
+				<id>983</id>
+				<name>syncthing</name>
+			</group>
+			<group>
+				<uuid>e504881b-c8dc-43d7-9ca4-74552f9b405b</uuid>
+				<id>1000</id>
+				<name>admin</name>
+			</group>
+		</usermanagement>
+		<firewall>
+			<rule>
+				<uuid>26e8a05f-2567-4739-bed9-64f65d1a81fb</uuid>
+				<ruleno>10100</ruleno>
+				<action>deny</action>
+				<log/>
+				<protocol>tcp</protocol>
+				<src/>
+				<srcport/>
+				<dst/>
+				<dstport>21</dstport>
+				<direction>in</direction>
+				<if/>
+				<extraoptions/>
+				<desc>Deny in FTP</desc>
+			</rule>
+			<rule>
+				<uuid>5768a98d-c4a8-4a28-a25b-f8cb564cfa6c</uuid>
+				<ruleno>10200</ruleno>
+				<action>deny</action>
+				<log/>
+				<protocol>tcp</protocol>
+				<src/>
+				<srcport/>
+				<dst/>
+				<dstport>22</dstport>
+				<direction>in</direction>
+				<if/>
+				<extraoptions>setup keep-state</extraoptions>
+				<desc>Deny in secure FTP, Telnet, and SCP</desc>
+			</rule>
+			<rule>
+				<uuid>857f3162-0939-4f9d-9a78-578ec4b96999</uuid>
+				<ruleno>10300</ruleno>
+				<action>deny</action>
+				<log/>
+				<protocol>tcp</protocol>
+				<src/>
+				<srcport/>
+				<dst/>
+				<dstport>113</dstport>
+				<direction>in</direction>
+				<if/>
+				<extraoptions/>
+				<desc>Deny ident</desc>
+			</rule>
+		</firewall>
+		<sysconsaver>
+			<blanktime>300</blanktime>
+		</sysconsaver>
+	</system>
+	<interfaces>
+		<lan>
+			<enable/>
+			<if>re0</if>
+			<ipaddr>dhcp</ipaddr>
+			<subnet>24</subnet>
+			<ipv6addr>auto</ipv6addr>
+			<ipv6subnet>64</ipv6subnet>
+			<media>autoselect</media>
+			<mediaopt/>
+		</lan>
+		<opt1>
+			<descr>Storage</descr>
+			<ipaddr>172.16.0.2</ipaddr>
+			<ipv6addr>auto</ipv6addr>
+			<if>ix0</if>
+			<mtu/>
+			<media>autoselect</media>
+			<mediaopt>half-duplex</mediaopt>
+			<extraoptions/>
+			<subnet>16</subnet>
+			<enable type="bool">1</enable>
+		</opt1>
+	</interfaces>
+	<staticroutes/>
+	<disks>
+		<disk>
+			<uuid>4dd13068-58ec-4562-9b50-81cd6853b906</uuid>
+			<name>ada0</name>
+			<id/>
+			<devicespecialfile>/dev/ada0</devicespecialfile>
+			<passthroughdevice>/dev/pass12</passthroughdevice>
+			<model>SanDisk SSD PLUS 120 GB</model>
+			<desc>SanDisk SSD PLUS 120 GB</desc>
+			<type>SCSI</type>
+			<serial>174506446406</serial>
+			<size>120.04GB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>ufsgpt</fstype>
+			<controller>ahcich</controller>
+			<controller_id>0</controller_id>
+			<controller_desc>ASMedia ASM1062 AHCI SATA controller</controller_desc>
+			<smart>
+				<devicefilepath>/dev/ada0</devicefilepath>
+				<devicetype>atacam</devicetype>
+				<devicetypearg>atacam</devicetypearg>
+				<enable type="bool">1</enable>
+				<extraoptions/>
+			</smart>
+		</disk>
+		<disk>
+			<uuid>ac5af43d-998e-42fe-b975-1d91e5cd05c7</uuid>
+			<name>ada1</name>
+			<id/>
+			<devicespecialfile>/dev/ada1</devicespecialfile>
+			<passthroughdevice>/dev/pass13</passthroughdevice>
+			<model>ST8000DM004-2CX188</model>
+			<desc>ST8000DM004-2CX188</desc>
+			<type>SCSI</type>
+			<serial>ZCT0SE46</serial>
+			<size>8.00TB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>zfs</fstype>
+			<controller>ahcich</controller>
+			<controller_id>2</controller_id>
+			<controller_desc>Intel Panther Point AHCI SATA controller</controller_desc>
+			<smart>
+				<devicefilepath>/dev/ada1</devicefilepath>
+				<devicetype>atacam</devicetype>
+				<devicetypearg>atacam</devicetypearg>
+				<enable type="bool">1</enable>
+				<extraoptions/>
+			</smart>
+			<zfsgpt/>
+		</disk>
+		<disk>
+			<uuid>4d730c0a-d71b-4f8e-9d47-04be8a02ad09</uuid>
+			<name>ada2</name>
+			<id/>
+			<devicespecialfile>/dev/ada2</devicespecialfile>
+			<passthroughdevice>/dev/pass14</passthroughdevice>
+			<model>ST8000DM004-2CX188</model>
+			<desc>ST8000DM004-2CX188</desc>
+			<type>SCSI</type>
+			<serial>ZCT0SFR7</serial>
+			<size>8.00TB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>zfs</fstype>
+			<controller>ahcich</controller>
+			<controller_id>3</controller_id>
+			<controller_desc>Intel Panther Point AHCI SATA controller</controller_desc>
+			<smart>
+				<devicefilepath>/dev/ada2</devicefilepath>
+				<devicetype>atacam</devicetype>
+				<devicetypearg>atacam</devicetypearg>
+				<enable type="bool">1</enable>
+				<extraoptions/>
+			</smart>
+			<zfsgpt/>
+		</disk>
+		<disk>
+			<uuid>9475c41b-03d7-454b-b2ea-fd5d4f179eb8</uuid>
+			<name>da0</name>
+			<id/>
+			<devicespecialfile>/dev/da0</devicespecialfile>
+			<passthroughdevice>/dev/pass0</passthroughdevice>
+			<model>Adaptec Array V1.0</model>
+			<desc>Adaptec Array V1.0</desc>
+			<type>SCSI</type>
+			<serial>11B62A3500</serial>
+			<size>7.99TB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>zfs</fstype>
+			<controller>aacraidp</controller>
+			<controller_id>0</controller_id>
+			<controller_desc/>
+			<smart>
+				<devicefilepath>/dev/da0</devicefilepath>
+				<devicetype>scsi</devicetype>
+				<devicetypearg>scsi</devicetypearg>
+				<extraoptions/>
+			</smart>
+			<zfsgpt/>
+		</disk>
+		<disk>
+			<uuid>db6c5119-1f0f-4620-bdc1-5f860c70190b</uuid>
+			<name>da1</name>
+			<id/>
+			<devicespecialfile>/dev/da1</devicespecialfile>
+			<passthroughdevice>/dev/pass1</passthroughdevice>
+			<model>Adaptec Array V1.0</model>
+			<desc>Adaptec Array V1.0</desc>
+			<type>SCSI</type>
+			<serial>C9263A3501</serial>
+			<size>7.99TB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>zfs</fstype>
+			<controller>aacraidp</controller>
+			<controller_id>0</controller_id>
+			<controller_desc/>
+			<smart>
+				<devicefilepath>/dev/da1</devicefilepath>
+				<devicetype>scsi</devicetype>
+				<devicetypearg>scsi</devicetypearg>
+				<extraoptions/>
+			</smart>
+			<zfsgpt/>
+		</disk>
+		<disk>
+			<uuid>5393a9f9-9123-4d7d-b8c8-8c3753da3c4b</uuid>
+			<name>da2</name>
+			<id/>
+			<devicespecialfile>/dev/da2</devicespecialfile>
+			<passthroughdevice>/dev/pass2</passthroughdevice>
+			<model>Adaptec Array V1.0</model>
+			<desc>Adaptec Array V1.0</desc>
+			<type>SCSI</type>
+			<serial>28124A3502</serial>
+			<size>7.99TB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>zfs</fstype>
+			<controller>aacraidp</controller>
+			<controller_id>0</controller_id>
+			<controller_desc/>
+			<smart>
+				<devicefilepath>/dev/da2</devicefilepath>
+				<devicetype>scsi</devicetype>
+				<devicetypearg>scsi</devicetypearg>
+				<extraoptions/>
+			</smart>
+			<zfsgpt/>
+		</disk>
+		<disk>
+			<uuid>4ce73c68-5eab-46a0-908b-a15290719534</uuid>
+			<name>da3</name>
+			<id/>
+			<devicespecialfile>/dev/da3</devicespecialfile>
+			<passthroughdevice>/dev/pass3</passthroughdevice>
+			<model>Adaptec Array V1.0</model>
+			<desc>Adaptec Array V1.0</desc>
+			<type>SCSI</type>
+			<serial>A0624A3503</serial>
+			<size>7.99TB</size>
+			<harddiskstandby>0</harddiskstandby>
+			<acoustic>0</acoustic>
+			<apm>0</apm>
+			<transfermode>auto</transfermode>
+			<fstype>zfs</fstype>
+			<controller>aacraidp</controller>
+			<controller_id>0</controller_id>
+			<controller_desc/>
+			<smart>
+				<devicefilepath>/dev/da3</devicefilepath>
+				<devicetype>scsi</devicetype>
+				<devicetypearg>scsi</devicetypearg>
+				<extraoptions/>
+			</smart>
+			<zfsgpt/>
+		</disk>
+	</disks>
+	<gvinum/>
+	<gmirror/>
+	<gconcat/>
+	<gstripe/>
+	<graid5/>
+	<geli/>
+	<iscsitarget>
+		<nodebase>iqn.2018-06.edu.utoledo.nsmhpcnas1</nodebase>
+		<discoveryauthmethod>Auto</discoveryauthmethod>
+		<discoveryauthgroup>0</discoveryauthgroup>
+		<timeout>30</timeout>
+		<nopininterval>20</nopininterval>
+		<maxr2t>32</maxr2t>
+		<maxsessions>16</maxsessions>
+		<maxconnections>4</maxconnections>
+		<firstburstlength>262144</firstburstlength>
+		<maxburstlength>1048576</maxburstlength>
+		<maxrecvdatasegmentlength>262144</maxrecvdatasegmentlength>
+		<maxoutstandingr2t>16</maxoutstandingr2t>
+		<defaulttime2wait>2</defaulttime2wait>
+		<defaulttime2retain>60</defaulttime2retain>
+		<uctladdress>127.0.0.1</uctladdress>
+		<uctlport>3261</uctlport>
+		<uctlnetmask>127.0.0.1/8</uctlnetmask>
+		<uctlauthmethod>CHAP</uctlauthmethod>
+		<uctlauthgroup>0</uctlauthgroup>
+		<mediadirectory>/mnt</mediadirectory>
+		<initiatorgroup>
+			<uuid>10a9e0d5-01f4-4229-839c-c80e727cec98</uuid>
+			<tag>1</tag>
+			<comment/>
+			<iginitiatorname>ALL</iginitiatorname>
+			<ignetmask>ALL</ignetmask>
+		</initiatorgroup>
+		<portalgroup>
+			<uuid>9addea28-054b-4fc6-9a84-66e715217339</uuid>
+			<tag>1</tag>
+			<comment/>
+			<portal>0.0.0.0:3260</portal>
+		</portalgroup>
+		<extent>
+			<uuid>1379d31b-dd99-4201-9ffb-459218d724fe</uuid>
+			<name>BioSci00LeicaTrial0</name>
+			<path>/dev/zvol/Pool0/BioSci00LeicaTrial</path>
+			<size/>
+			<sizeunit>auto</sizeunit>
+			<type>zvol</type>
+			<comment/>
+		</extent>
+		<extent>
+			<uuid>a96681f3-f1d4-462a-afc2-d882070e54e1</uuid>
+			<name>HPCGaussian01</name>
+			<path>/dev/zvol/Pool0/ISCSI-HPC-Gaussian01</path>
+			<size/>
+			<sizeunit>auto</sizeunit>
+			<type>zvol</type>
+			<comment/>
+		</extent>
+		<extent>
+			<uuid>0bd86705-9829-4cfa-a086-894bc6434e80</uuid>
+			<name>IRWS</name>
+			<path>/mnt/Pool0/DataSet0/IRWS.iscsi</path>
+			<size>512</size>
+			<sizeunit>GB</sizeunit>
+			<type>file</type>
+			<comment>Institutional Research Workstations</comment>
+		</extent>
+		<extent>
+			<uuid>c6969102-1350-4697-9912-be97f8ac3f9f</uuid>
+			<name>NSMMDTVM01</name>
+			<path>/dev/zvol/Pool0/iSCSI-NSMMDTVM01</path>
+			<size/>
+			<sizeunit>auto</sizeunit>
+			<type>zvol</type>
+			<comment/>
+		</extent>
+		<extent>
+			<uuid>7a0c4931-50cd-449f-9dba-e3707fff01f2</uuid>
+			<name>nemxen03-disk0</name>
+			<path>/mnt/Pool0/DataSet0/NSMXEN03.DISK0.iscsi</path>
+			<size>3</size>
+			<sizeunit>TB</sizeunit>
+			<type>file</type>
+			<comment/>
+		</extent>
+		<target>
+			<uuid>1d2489f5-e71f-43cc-8aa8-452430c02e6e</uuid>
+			<enable type="bool">1</enable>
+			<name>BioSci00LeicaTrial0</name>
+			<alias/>
+			<type>Disk</type>
+			<flags>rw</flags>
+			<comment/>
+			<authmethod>Auto</authmethod>
+			<digest>Auto</digest>
+			<queuedepth>32</queuedepth>
+			<inqvendor/>
+			<inqproduct/>
+			<inqrevision/>
+			<inqserial>NFSN00QDMJW5R8</inqserial>
+			<blocklen>512</blocklen>
+			<pgigmap>
+				<pgtag>1</pgtag>
+				<igtag>1</igtag>
+			</pgigmap>
+			<agmap>
+				<agtag>0</agtag>
+			</agmap>
+			<lunmap>
+				<lun>0</lun>
+				<type>Storage</type>
+				<extentname>BioSci00LeicaTrial0</extentname>
+			</lunmap>
+		</target>
+		<target>
+			<uuid>5704378b-38d0-441c-8225-987db37c9173</uuid>
+			<enable type="bool">1</enable>
+			<name>HPCGaussian01</name>
+			<alias/>
+			<type>Disk</type>
+			<flags>rw</flags>
+			<comment/>
+			<authmethod>Auto</authmethod>
+			<digest>Auto</digest>
+			<queuedepth>32</queuedepth>
+			<inqvendor/>
+			<inqproduct/>
+			<inqrevision/>
+			<inqserial>NFSN00EJPELQ4G</inqserial>
+			<blocklen>512</blocklen>
+			<pgigmap>
+				<pgtag>1</pgtag>
+				<igtag>1</igtag>
+			</pgigmap>
+			<agmap>
+				<agtag>0</agtag>
+			</agmap>
+			<lunmap>
+				<lun>0</lun>
+				<type>Storage</type>
+				<extentname>HPCGaussian01</extentname>
+			</lunmap>
+		</target>
+		<target>
+			<uuid>6c76a53c-d214-4cf1-ab38-80b89ef77998</uuid>
+			<enable type="bool">1</enable>
+			<name>IRWS</name>
+			<alias/>
+			<type>Disk</type>
+			<flags>rw</flags>
+			<comment/>
+			<authmethod>Auto</authmethod>
+			<digest>Auto</digest>
+			<queuedepth>32</queuedepth>
+			<inqvendor/>
+			<inqproduct/>
+			<inqrevision/>
+			<inqserial>NFSN00C7DUO8ZX</inqserial>
+			<blocklen>512</blocklen>
+			<pgigmap>
+				<pgtag>1</pgtag>
+				<igtag>1</igtag>
+			</pgigmap>
+			<agmap>
+				<agtag>0</agtag>
+			</agmap>
+			<lunmap>
+				<lun>0</lun>
+				<type>Storage</type>
+				<extentname>IRWS</extentname>
+			</lunmap>
+		</target>
+		<target>
+			<uuid>67087eda-3738-4e70-8c40-71c319e42ba9</uuid>
+			<enable type="bool">1</enable>
+			<name>NSMMDTVM01</name>
+			<alias/>
+			<type>Disk</type>
+			<flags>rw</flags>
+			<comment/>
+			<authmethod>Auto</authmethod>
+			<digest>Auto</digest>
+			<queuedepth>32</queuedepth>
+			<inqvendor/>
+			<inqproduct/>
+			<inqrevision/>
+			<inqserial>NFSN00TOQ8CIVR</inqserial>
+			<blocklen>512</blocklen>
+			<pgigmap>
+				<pgtag>1</pgtag>
+				<igtag>1</igtag>
+			</pgigmap>
+			<agmap>
+				<agtag>0</agtag>
+			</agmap>
+			<lunmap>
+				<lun>0</lun>
+				<type>Storage</type>
+				<extentname>NSMMDTVM01</extentname>
+			</lunmap>
+		</target>
+		<target>
+			<uuid>49f74e0e-109e-4c03-b608-d143d1ad3d3e</uuid>
+			<enable type="bool">1</enable>
+			<name>nsmxen03-disk0</name>
+			<alias/>
+			<type>Disk</type>
+			<flags>rw</flags>
+			<comment/>
+			<authmethod>Auto</authmethod>
+			<digest>Auto</digest>
+			<queuedepth>32</queuedepth>
+			<inqvendor/>
+			<inqproduct/>
+			<inqrevision/>
+			<inqserial>NFSN00DGT3RJTI</inqserial>
+			<blocklen>512</blocklen>
+			<pgigmap>
+				<pgtag>1</pgtag>
+				<igtag>1</igtag>
+			</pgigmap>
+			<agmap>
+				<agtag>0</agtag>
+			</agmap>
+			<lunmap>
+				<lun>0</lun>
+				<type>Storage</type>
+				<extentname>nemxen03-disk0</extentname>
+			</lunmap>
+		</target>
+		<enable type="bool">1</enable>
+	</iscsitarget>
+	<iscsiinit/>
+	<zfs>
+		<vdevices>
+			<vdevice>
+				<uuid>c57187fe-075a-4aff-a502-740f874c2fc2</uuid>
+				<name>Backup</name>
+				<type>stripe</type>
+				<device>/dev/ada1</device>
+				<device>/dev/ada2</device>
+				<desc/>
+			</vdevice>
+			<vdevice>
+				<uuid>124d717a-b51e-4393-a022-83fac54816d1</uuid>
+				<name>Primary</name>
+				<type>stripe</type>
+				<device>/dev/da0</device>
+				<device>/dev/da1</device>
+				<device>/dev/da2</device>
+				<device>/dev/da3</device>
+				<desc/>
+			</vdevice>
+		</vdevices>
+		<pools>
+			<pool>
+				<uuid>bd240879-de66-40cc-891a-38481d83c772</uuid>
+				<name>pool0</name>
+				<vdevice>Primary</vdevice>
+				<root/>
+				<mountpoint/>
+				<desc/>
+			</pool>
+			<pool>
+				<uuid>85243eeb-167e-4b09-9f24-e0c1c18cb565</uuid>
+				<name>pool1</name>
+				<vdevice>Backup</vdevice>
+				<root/>
+				<mountpoint/>
+				<desc/>
+			</pool>
+		</pools>
+		<datasets/>
+		<settings>
+			<capacity_warning>80</capacity_warning>
+			<capacity_critical>90</capacity_critical>
+		</settings>
+		<volumes/>
+	</zfs>
+	<mounts>
+	</mounts>
+	<samba>
+		<netbiosname>NSMHPCNAS1</netbiosname>
+		<workgroup>HPC</workgroup>
+		<serverdesc>NSM HPC Network Storage 1</serverdesc>
+		<security>user</security>
+		<maxprotocol/>
+		<guestaccount>ftp</guestaccount>
+		<maptoguest>Never</maptoguest>
+		<localmaster>yes</localmaster>
+		<rcvbuf>131072</rcvbuf>
+		<sndbuf>131072</sndbuf>
+		<storedosattributes type="bool">1</storedosattributes>
+		<largereadwrite type="bool">1</largereadwrite>
+		<aiorsize>1024</aiorsize>
+		<aiowsize>1024</aiowsize>
+		<aiowbehind/>
+		<if/>
+		<pwdsrv/>
+		<winssrv/>
+		<timesrv>yes</timesrv>
+		<doscharset>CP437</doscharset>
+		<unixcharset>UTF-8</unixcharset>
+		<loglevel>3</loglevel>
+		<aio type="bool">1</aio>
+		<share>
+			<uuid>f4709685-6a0c-46ba-91e0-8f47dfa1cda9</uuid>
+			<name>Armus</name>
+			<path>/mnt/pool0/shares/Armus/</path>
+			<comment>Harvard Armus Research</comment>
+			<browseable type="bool">1</browseable>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<recyclebin type="bool">1</recyclebin>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<hostsallow/>
+			<hostsdeny/>
+			<auxparam>invalid users = mayarender</auxparam>
+			<aiomodule>aio_pthread</aiomodule>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+		</share>
+		<share>
+			<uuid>a332a131-6c81-4a34-b1bd-f2d1987920f8</uuid>
+			<name>LindKovacs</name>
+			<path>/mnt/pool0/shares/LindKovacs</path>
+			<comment>Lind-Kovacs Lab Data Storage</comment>
+			<browseable type="bool">1</browseable>
+			<guest type="bool">1</guest>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<inheritacls type="bool">1</inheritacls>
+			<recyclebin type="bool">1</recyclebin>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<zfsacl type="bool">1</zfsacl>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+			<hostsallow/>
+			<hostsdeny/>
+		</share>
+		<share>
+			<uuid>ce68ed7f-275f-4cb6-ba56-1be528c80a23</uuid>
+			<name>Prestwich</name>
+			<path>/mnt/pool0/shares/Prestwich/Prestwich</path>
+			<comment>Prestwich Lab Data Share</comment>
+			<browseable type="bool">1</browseable>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<inheritacls type="bool">1</inheritacls>
+			<recyclebin type="bool">1</recyclebin>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<zfsacl type="bool">1</zfsacl>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+			<hostsallow/>
+			<hostsdeny/>
+		</share>
+		<share>
+			<uuid>01cdef5f-ce74-412d-bd7a-9e2350e2e584</uuid>
+			<name>Spanbauerhome$</name>
+			<path>/mnt/pool0/shares/Spanbauer/home</path>
+			<comment>Spanbauer Home</comment>
+			<browseable type="bool">1</browseable>
+			<guest type="bool">1</guest>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<inheritacls type="bool">1</inheritacls>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<zfsacl type="bool">1</zfsacl>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+			<hostsallow>172.16.0.0/16</hostsallow>
+			<hostsdeny/>
+		</share>
+		<share>
+			<uuid>2c565021-ea13-46ae-9abc-f9254ef14a4e</uuid>
+			<name>Spanbauertmp$</name>
+			<path>/mnt/pool0/shares/Spanbauer/tmp</path>
+			<comment>Spanbauer Temp</comment>
+			<browseable type="bool">1</browseable>
+			<guest type="bool">1</guest>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<inheritacls type="bool">1</inheritacls>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<zfsacl type="bool">1</zfsacl>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+			<hostsallow>172.16.0.0/16</hostsallow>
+			<hostsdeny/>
+		</share>
+		<share>
+			<uuid>5a0159ed-cb6a-4756-bac1-482438647f4a</uuid>
+			<name>Zych</name>
+			<path>/mnt/pool0/shares/Zych</path>
+			<comment>Tom's Stuff</comment>
+			<browseable type="bool">1</browseable>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<inheritacls type="bool">1</inheritacls>
+			<recyclebin type="bool">1</recyclebin>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<zfsacl type="bool">1</zfsacl>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+			<hostsallow/>
+			<hostsdeny/>
+		</share>
+		<share>
+			<uuid>950ec043-9820-4eb4-a768-636e55fea126</uuid>
+			<name>pool0_shares</name>
+			<path>/mnt/pool0/shares</path>
+			<comment>asdf</comment>
+			<readonly type="bool">1</readonly>
+			<browseable type="bool">1</browseable>
+			<guest type="bool">1</guest>
+			<inheritpermissions type="bool">1</inheritpermissions>
+			<inheritacls type="bool">1</inheritacls>
+			<recyclebin type="bool">1</recyclebin>
+			<hidedotfiles type="bool">1</hidedotfiles>
+			<shadowcopy type="bool">1</shadowcopy>
+			<shadowformat>auto-%Y%m%d-%H%M%S</shadowformat>
+			<zfsacl type="bool">1</zfsacl>
+			<vfs_fruit_resource>file</vfs_fruit_resource>
+			<vfs_fruit_time_machine>no</vfs_fruit_time_machine>
+			<vfs_fruit_metadata>netatalk</vfs_fruit_metadata>
+			<vfs_fruit_locking>netatalk</vfs_fruit_locking>
+			<vfs_fruit_encoding>native</vfs_fruit_encoding>
+			<hostsallow/>
+			<hostsdeny/>
+		</share>
+		<minprotocol>NT1</minprotocol>
+		<clientmaxprotocol/>
+		<clientminprotocol/>
+		<enable type="bool">1</enable>
+	</samba>
+	<sambaad/>
+	<ftpd>
+		<numberclients>5</numberclients>
+		<maxconperip>2</maxconperip>
+		<maxloginattempts>1</maxloginattempts>
+		<timeout>600</timeout>
+		<port>21</port>
+		<pasv_max_port>0</pasv_max_port>
+		<pasv_min_port>0</pasv_min_port>
+		<pasv_address/>
+		<directorymask>022</directorymask>
+		<filemask>077</filemask>
+		<chrooteveryone/>
+		<privatekey/>
+		<certificate/>
+		<userbandwidth>
+			<up/>
+			<down/>
+		</userbandwidth>
+		<anonymousbandwidth>
+			<up/>
+			<down/>
+		</anonymousbandwidth>
+		<banner/>
+		<tlsrequired/>
+	</ftpd>
+	<afp/>
+	<rsyncd>
+		<port>873</port>
+		<rsyncd_user>ftp</rsyncd_user>
+		<motd/>
+		<module>
+			<uuid>37758e44-c876-4bb8-9a2c-1c2c124e14df</uuid>
+			<name>pool0_shares</name>
+			<path>/mnt/pool0/shares/</path>
+			<comment>Pool 0</comment>
+			<list type="bool">1</list>
+			<rwmode>rw</rwmode>
+			<maxconnections>0</maxconnections>
+			<hostsallow>172.16.0.0/16</hostsallow>
+			<hostsdeny/>
+			<uid/>
+			<gid/>
+		</module>
+		<module>
+			<uuid>c829cbfc-ddbb-41c8-a9a4-f634053a24e9</uuid>
+			<name>pool1_shares</name>
+			<path>/mnt/pool1/pool0/shares/</path>
+			<comment>Pool 1</comment>
+			<list type="bool">1</list>
+			<rwmode>ro</rwmode>
+			<maxconnections>0</maxconnections>
+			<hostsallow>172.16.0.0/16</hostsallow>
+			<hostsdeny/>
+			<uid/>
+			<gid/>
+		</module>
+		<enable type="bool">1</enable>
+	</rsyncd>
+	<rsync>
+		<rsynclocal>
+			<uuid>cc425cbc-656b-4133-85c0-ef7a3fbb21be</uuid>
+			<minute>0</minute>
+			<hour>8</hour>
+			<day/>
+			<month/>
+			<weekday>7</weekday>
+			<source>/mnt/pool0</source>
+			<destination>/mnt/pool1</destination>
+			<all_mins>0</all_mins>
+			<all_hours>0</all_hours>
+			<all_days>1</all_days>
+			<all_months>1</all_months>
+			<all_weekdays>0</all_weekdays>
+			<description>Backup Pool0 to Pool1</description>
+			<who>root</who>
+			<options>
+				<recursive type="bool">1</recursive>
+				<times type="bool">1</times>
+				<compress type="bool">1</compress>
+				<archive type="bool">1</archive>
+				<delete_algorithm>default</delete_algorithm>
+				<perms type="bool">1</perms>
+				<xattrs type="bool">1</xattrs>
+				<extraoptions/>
+			</options>
+		</rsynclocal>
+	</rsync>
+	<unison>
+		<workdir/>
+		<mkdir/>
+	</unison>
+	<upnp>
+		<port>49152</port>
+		<profile>default</profile>
+	</upnp>
+	<minidlna>
+		<port>8200</port>
+		<notify_int>300</notify_int>
+		<container>B</container>
+		<loglevel>info</loglevel>
+		<inotify/>
+	</minidlna>
+	<daap>
+		<port>3689</port>
+		<rescaninterval>3600</rescaninterval>
+		<scantype>0</scantype>
+		<dbdir/>
+		<admin_pw>nas4free</admin_pw>
+	</daap>
+	<bittorrent>
+		<peerport>51413</peerport>
+		<portforwarding/>
+		<port>9091</port>
+		<downloaddir/>
+		<configdir/>
+		<authrequired/>
+		<username>admin</username>
+		<password>nas4free</password>
+		<pex/>
+		<dht/>
+		<preallocation>1</preallocation>
+		<encryption>1</encryption>
+		<watchdir/>
+		<umask/>
+		<extraoptions/>
+	</bittorrent>
+	<sshd>
+		<port>22</port>
+		<passwordauthentication type="bool">1</passwordauthentication>
+		<pubkeyauthentication/>
+		<permitrootlogin type="bool">1</permitrootlogin>
+		<enable type="bool">1</enable>
+		<private-key/>
+		<subsystem/>
+	</sshd>
+	<nfsd>
+		<numproc>4</numproc>
+		<share>
+			<uuid>85aa2df2-a476-45d3-a887-66eb22cb30a9</uuid>
+			<path>/mnt/pool0</path>
+			<mapall>yes</mapall>
+			<network>172.16.0.0/16</network>
+			<comment/>
+			<options>
+				<alldirs type="bool">1</alldirs>
+			</options>
+		</share>
+		<enable type="bool">1</enable>
+	</nfsd>
+	<snmpd>
+		<location/>
+		<contact/>
+		<read>public</read>
+		<traphost>localhost</traphost>
+		<trapport>162</trapport>
+		<trap/>
+		<modules>
+			<mibii/>
+		</modules>
+	</snmpd>
+	<diag>
+		<ipv6nat>
+			<ipaddr/>
+		</ipv6nat>
+	</diag>
+	<syslogd>
+		<nentries>275</nentries>
+	</syslogd>
+	<access>
+		<user>
+			<uuid>17c5711f-3e23-4577-8546-eae37b251f2a</uuid>
+			<login>MueserLab</login>
+			<fullname>MueserLab</fullname>
+			<passwordsha>$6$NrauA6c3U2GfrntX$WffxvLJJsdUUXCZpxIurrBlLkCVpUpHw3g82aUyVn9lFS8qZ2EryPcWUTNVp1LuVKFNVrZPpmFDQWRCQDA3o/1</passwordsha>
+			<passwordmd4>B6C5343F1AA58EFAB0B0B7671C7F7F34</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>31</primarygroup>
+			<group>50</group>
+			<homedir>/mnt/Pool0/MueserLab</homedir>
+			<id>1018</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<user>
+			<uuid>770b8af0-3b60-4491-aa20-8275e328dbfd</uuid>
+			<login>QianChen</login>
+			<fullname>QianChen</fullname>
+			<passwordsha>$6$3G9NlQ05SUh9eT7s$ZUA1/lxQOIfDA9mCDxFOKOwuXu5WvTbfdW8YB8KtSMo6UJ9SdortTslkNAZtaDd1bm7KQeA86XlHd0Nn519Ud.</passwordsha>
+			<passwordmd4>0BC45E4E2FECEFE2D0B2DB0C8B269A4E</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>31</primarygroup>
+			<homedir>/mnt/Pool0/QianChen</homedir>
+			<id>1012</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<user>
+			<uuid>01e5c213-ac8b-4d67-8b91-ef8099cc94fe</uuid>
+			<login>ViolaLab</login>
+			<fullname>Viola Lab</fullname>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<group>1001</group>
+			<homedir>/mnt/Pool0/DataSet0/ViolaLab/</homedir>
+			<id>1006</id>
+			<userportal/>
+			<passwordmd4>3AD5FB78BABDF3C249751FD04E2FC92A</passwordmd4>
+			<passwordsha>$6$tB4P1u3vZU9zLmiv$13S0Q/W2p5xPqJn0U33MzTgI5N01cpJpkr17ndnPeO0wfnM7M3HutEYRUjl9pM4w7xb8P1IeRlDXZH3LB83QQ1</passwordsha>
+		</user>
+		<user>
+			<uuid>558b4ab5-8736-4424-b49c-65f06a9a0a5f</uuid>
+			<login>armus</login>
+			<fullname>Harvard Armus</fullname>
+			<shell>nologin</shell>
+			<primarygroup>50</primarygroup>
+			<homedir>/mnt/Pool0/DataSet0/Armus/</homedir>
+			<id>1004</id>
+			<userportal/>
+			<passwordmd4>CBD4491756F08CF5BA4CB79BABFD9EDD</passwordmd4>
+			<passwordsha>$6$Rq4gOUEqnXrUvFOn$GlUXpVdihiROnpPh.8lgBLSEW2moJVxXBNm/q.Qi2wvuYsJK0FH3wQEJeKylb8OY4r8ERdDVgTDrnUvUBTqqQ1</passwordsha>
+		</user>
+		<user>
+			<uuid>14d277d3-f679-4947-ae02-679412c233dd</uuid>
+			<login>astronomy</login>
+			<fullname>Astronomy</fullname>
+			<shell>bash</shell>
+			<primarygroup>1000</primarygroup>
+			<group>0</group>
+			<homedir>/mnt/Pool0/DataSet0/Astronomy/</homedir>
+			<id>1000</id>
+			<userportal/>
+			<passwordmd4>55F024D6E853EB0FC8ACD5AFDC44C99F</passwordmd4>
+			<passwordsha>$6$TA2DWhqSIFS68SgN$5Wu5fQB5YJGy8Ju/Y5VoTEbzJ3bx2BQReS1eP.P2Z/C/OL6YK/nsiQWYqOTjWBoErwzLpRUnC.WsfnCgZ2Lbv.</passwordsha>
+		</user>
+		<user>
+			<uuid>85607bdc-e270-4b29-ab8c-e579f75f39d8</uuid>
+			<login>backup</login>
+			<fullname>backup</fullname>
+			<shell>nologin</shell>
+			<primarygroup>1000</primarygroup>
+			<group>0</group>
+			<homedir/>
+			<id>1007</id>
+			<passwordmd4>0DC327F3CC8C7D31475023DC19AF84FC</passwordmd4>
+			<passwordsha>$6$OhdjkWC4KpkCYKQ5$6CbP2REs5.4U1fwSwCa0rmBt8lDlTm9cZKGPtBPG/On1fYn3viIFY6usFVQfpv0mmNhZpMfXpRmQ/KrIuB6jE.</passwordsha>
+		</user>
+		<user>
+			<uuid>497ef862-27a6-4d9c-a733-eb1968d3b7e9</uuid>
+			<login>biology</login>
+			<fullname>Biology</fullname>
+			<passwordsha>$6$FGEibanb7sRDQLrO$yiepE51OgE6Ky50gFERLNzdj5IV2Lu/wJmGAxXnDkved1LnADG76MzxHBp.v3A8Bc6JRblLFIIgotv9kwxXys/</passwordsha>
+			<passwordmd4>63A56A42E55B4A1E6550AFECB3C30C2A</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>1000</primarygroup>
+			<homedir>/mnt/Pool0/DataSet0/Biology/</homedir>
+			<id>1002</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<user>
+			<uuid>61d259ed-7fb5-4299-a1fe-c95768b2e276</uuid>
+			<login>camera</login>
+			<fullname>Camera Account</fullname>
+			<passwordsha>$6$K83OYKjcb7wR5xyu$hpDrBqHk1NC1qVQtO4yxb7L0VSBdB0haHtC7KBmRKqzY1NxC0ehCpg1/Ok8YLSxm/s.9NECkUHJ9nOVDhCKbU/</passwordsha>
+			<passwordmd4>44C4CB4E814223BDC2521AD7944D11C9</passwordmd4>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<group>1000</group>
+			<group>0</group>
+			<homedir>/mnt/Pool0/Cameras</homedir>
+			<id>1009</id>
+		</user>
+		<user>
+			<uuid>aa859036-e185-41d5-a985-1c04c0f40951</uuid>
+			<login>jbolbac2</login>
+			<fullname>Jason Bolbach</fullname>
+			<passwordsha>$6$HpO3X+lco0jBx4tf$GlucgYmBLG96AmICQ/7LvRIjtF0StMS2YnIAcyKQ6egpjTWApLSgkTr0G5V8QCgoidEzNH.8vdaNfNhA.qz.E0</passwordsha>
+			<passwordmd4>0DC327F3CC8C7D31475023DC19AF84FC</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>20</primarygroup>
+			<group>50</group>
+			<homedir>/mnt/Pool0/home/jbolbac2</homedir>
+			<id>1010</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<user>
+			<uuid>aa328f77-f22c-4e26-88ca-61a028d0a472</uuid>
+			<login>lindkovacs</login>
+			<fullname>lindkovacs</fullname>
+			<passwordsha>$6$drwB8+nnRGQNCSt2$xNYhMMKUV8jORScNBLidafTOEZ9CbwDVYJ3khdZd2SpL/vml93bCNJQdmWInr0ercZZ/EZB7JctyCY0vOiuxU.</passwordsha>
+			<passwordmd4>DEFEB716C70B22C4AF7B5BC79CDA2852</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>31</primarygroup>
+			<group>50</group>
+			<homedir>/mnt/Pool0/LindKovacs</homedir>
+			<id>1016</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<user>
+			<uuid>453cfffb-2e1f-4905-b900-924ccaf9bfd8</uuid>
+			<login>mayarender</login>
+			<fullname>mayarender</fullname>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<homedir/>
+			<id>1008</id>
+			<userportal/>
+			<passwordmd4>6261E3BBD7B00F592367FCA409533640</passwordmd4>
+			<passwordsha>$6$KyhYvQ61ymoMj/gy$LDi7.UJkfPNAnZP0tTOnK3j0ggSerAGcZh5GF6u0ry7rl1oyHzey7AIaPfVwLmHATyKjSk0/WuSp5S8ASAhSq/</passwordsha>
+		</user>
+		<user>
+			<uuid>40c556c7-d653-46f0-82c3-7a10bfa5d0ac</uuid>
+			<login>mdt</login>
+			<fullname>Microsft Deplyment Toolkit</fullname>
+			<passwordsha>$6$UEmtV16VqRY2hTwp$zCv.KerRDzC07IoHES3eHrLh9Geg4gvpQBMT8TwWoDp0iTX7iYJFnb5BOWiSBBjeKpR7pZFC2IIQ/FpGBLecu.</passwordsha>
+			<passwordmd4>0DC327F3CC8C7D31475023DC19AF84FC</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>20</primarygroup>
+			<homedir>/mnt/Pool0/home/mdt</homedir>
+			<id>1011</id>
+		</user>
+		<user>
+			<uuid>3e786c16-4792-4fb6-b7aa-60ad69d1e3d3</uuid>
+			<login>prestwichlab</login>
+			<fullname>Prestwich Lab</fullname>
+			<passwordsha>$6$J8ClRfDew+qNQTen$0HSRbsdlP3G9gYiSZA9qMzMsjx0Z1gcayWN0jeq35YwYaad4abhq7O8AP.Foy9NPR06Sz8CPfkmD21HYqVQnI/</passwordsha>
+			<passwordmd4>43AB993ACEB622C32C77CD1B6AEF24A5</passwordmd4>
+			<shell>nologin</shell>
+			<primarygroup>50</primarygroup>
+			<homedir>/mnt/pool0/shares/Prestwich/Prestwich</homedir>
+			<id>1021</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<user>
+			<uuid>af2a7ac4-38da-4846-b69e-805352bbfa24</uuid>
+			<login>sem</login>
+			<fullname>sem</fullname>
+			<passwordsha>$6$Lku5VoVXhc9KCClm$u0pGQjTmia1gWpgyhcrP9P/o04./BtY02d1ZlbiOAZN1nL9N8JxvoZe.Ti.N/NFbxzmrGZvJA1InHf.C./Mgg/</passwordsha>
+			<passwordmd4>B90ABF1B391CB1EB3A93451458F97D14</passwordmd4>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<homedir>/mnt/Pool0/SEM</homedir>
+			<id>1013</id>
+		</user>
+		<user>
+			<uuid>540b3ae4-5c41-411c-9f29-f5126d6e3a6a</uuid>
+			<login>sem2</login>
+			<fullname>sem2</fullname>
+			<passwordsha>$6$w4HUOKtz5MwiCb3L$.CZkGLpeM7Zu0gwei6/tqve2AHizqYAO.UyxNK1dMbB.Q6BYGnZtWBLRhjl6aRAxG1Wz3ju0HGQ6ssdjaVa080</passwordsha>
+			<passwordmd4>B90ABF1B391CB1EB3A93451458F97D14</passwordmd4>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<homedir>/mnt/Pool0/SEM</homedir>
+			<id>1014</id>
+		</user>
+		<user>
+			<uuid>76be9559-8d39-4fde-9516-898d26643ee5</uuid>
+			<login>smrtanalysis</login>
+			<fullname>smrtanalysis</fullname>
+			<passwordsha>$6$PILUZ0alhht2D9Ko$z9YjCb1POr8FYKoTMn/Ljt9Jj/T3LvvIwwUCL06tpsbKc9d5hmhJiWsEmBwCzOjzM3Oa2QiHQpoJeQYJvqPs8/</passwordsha>
+			<passwordmd4>022E0A68304BDF6B436202EAB0E03BC6</passwordmd4>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<homedir/>
+			<id>1015</id>
+		</user>
+		<user>
+			<uuid>70e22c4a-aa29-4200-8b1e-4e805106c66f</uuid>
+			<login>spanbauer</login>
+			<fullname>Trisha Spanbauer</fullname>
+			<passwordsha>$6$nWocMxHs85+n7Pp7$JBcdjcwtwrmjQuYs0gDG.b7cjaLk0J.VIcWHsjoqmxz625j9mfDSqSqcNqOtlMAMfs3yHHpXG/T.RQhoLgrXz/</passwordsha>
+			<passwordmd4>B4EFA0E87A40D312D7A7DB2E4D8BE0FB</passwordmd4>
+			<shell>nologin</shell>
+			<primarygroup>31</primarygroup>
+			<homedir>/mnt/Pool0/Spanbauer</homedir>
+			<id>1019</id>
+		</user>
+		<user>
+			<uuid>82a09864-f37e-4ab1-83f6-89ef5dfb23a4</uuid>
+			<login>zych</login>
+			<fullname>Tom Zych</fullname>
+			<passwordsha>$6$D2mMKjPpCB9hRBUT$rDgERu4dY2fP299lT3wIZoJkYa5bexAr2yfsLU0rgcPx5Bk.A3efqTyOUbUjBiVjTed0458ristK5/H5FI1IH1</passwordsha>
+			<passwordmd4>B3BE85792685FF1D6A446E19023E5ED5</passwordmd4>
+			<shell>bash</shell>
+			<primarygroup>31</primarygroup>
+			<group>50</group>
+			<homedir>/mnt/Pool0/zych</homedir>
+			<id>1020</id>
+			<userportal type="bool">1</userportal>
+		</user>
+		<group>
+			<uuid>43349d2a-f5ab-4358-864b-44eafbdcc59d</uuid>
+			<id>1001</id>
+			<name>violalab</name>
+			<desc>viola lab group</desc>
+		</group>
+		<group>
+			<uuid>1f691120-b88e-476f-a358-cb32d93c21c2</uuid>
+			<id>1002</id>
+			<name>Ronning</name>
+			<desc>Ronning Group</desc>
+		</group>
+	</access>
+	<dynamicdns/>
+	<statusreport>
+		<to>jason.bolbach@utoledo.edu</to>
+		<subject>Status report from %h</subject>
+		<all_mins>0</all_mins>
+		<all_hours>0</all_hours>
+		<all_days>1</all_days>
+		<all_months>1</all_months>
+		<all_weekdays>1</all_weekdays>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day/>
+		<month/>
+		<weekday/>
+		<report>systeminfo</report>
+		<report>smartdlog</report>
+		<report_scriptname/>
+		<enable type="bool">1</enable>
+	</statusreport>
+	<shutdown>
+		<all_mins/>
+		<all_hours/>
+		<all_days/>
+		<all_months/>
+		<all_weekdays/>
+		<minute/>
+		<hour/>
+		<day/>
+		<month/>
+		<weekday/>
+	</shutdown>
+	<reboot>
+		<all_mins/>
+		<all_hours/>
+		<all_days/>
+		<all_months/>
+		<all_weekdays/>
+		<minute/>
+		<hour/>
+		<day/>
+		<month/>
+		<weekday/>
+	</reboot>
+	<cron>
+		<job>
+			<uuid>26c4bf2b-bfb0-4d03-b2ad-d79da252af8d</uuid>
+			<desc>Monitor ZFS Health</desc>
+			<minute>30</minute>
+			<hour/>
+			<day/>
+			<month/>
+			<weekday/>
+			<all_mins>0</all_mins>
+			<all_hours>1</all_hours>
+			<all_days>1</all_days>
+			<all_months>1</all_months>
+			<all_weekdays>1</all_weekdays>
+			<who>root</who>
+			<command>/etc/healthcheck.zfs</command>
+		</job>
+	</cron>
+	<rc/>
+	<websrv>
+		<protocol>http</protocol>
+		<port/>
+		<documentroot/>
+		<privatekey/>
+		<certificate/>
+		<authentication>
+			<url>
+				<uuid>9feabff2-dc8a-48d6-987a-dafe961e7680</uuid>
+				<path>/</path>
+				<realm>Webserver</realm>
+			</url>
+		</authentication>
+	</websrv>
+	<smartd>
+		<interval>1800</interval>
+		<powermode>never</powermode>
+		<temp>
+			<diff>0</diff>
+			<info>0</info>
+			<crit>0</crit>
+		</temp>
+		<email>
+			<to>jason.bolbach@utoledo.edu</to>
+			<enable type="bool">1</enable>
+			<testemail type="bool">1</testemail>
+		</email>
+		<selftest>
+			<uuid>5b88fec5-e027-4c4b-a7f4-f3454b52175e</uuid>
+			<devicespecialfile>/dev/da0</devicespecialfile>
+			<type>S</type>
+			<hour>10</hour>
+			<day>1</day>
+			<month/>
+			<weekday/>
+			<all_hours>0</all_hours>
+			<all_days>0</all_days>
+			<all_months>1</all_months>
+			<all_weekdays>1</all_weekdays>
+			<desc/>
+		</selftest>
+		<selftest>
+			<uuid>28a86e99-99db-4605-8e49-9d8595fce52a</uuid>
+			<devicespecialfile>/dev/da1</devicespecialfile>
+			<type>S</type>
+			<hour>10</hour>
+			<day>2</day>
+			<month/>
+			<weekday/>
+			<all_hours>0</all_hours>
+			<all_days>0</all_days>
+			<all_months>1</all_months>
+			<all_weekdays>1</all_weekdays>
+			<desc/>
+		</selftest>
+		<selftest>
+			<uuid>4cf3c869-ba1b-4869-bef7-27dc0872e808</uuid>
+			<devicespecialfile>/dev/da2</devicespecialfile>
+			<type>S</type>
+			<hour>10</hour>
+			<day>3</day>
+			<month/>
+			<weekday/>
+			<all_hours>0</all_hours>
+			<all_days>0</all_days>
+			<all_months>1</all_months>
+			<all_weekdays>1</all_weekdays>
+			<desc/>
+		</selftest>
+		<selftest>
+			<uuid>d887b152-3a30-4083-9f0a-95eb32dfe6b1</uuid>
+			<devicespecialfile>/dev/da3</devicespecialfile>
+			<type>S</type>
+			<hour>10</hour>
+			<day>4</day>
+			<month/>
+			<weekday/>
+			<all_hours>0</all_hours>
+			<all_days>0</all_days>
+			<all_months>1</all_months>
+			<all_weekdays>1</all_weekdays>
+			<desc/>
+		</selftest>
+		<enable type="bool">1</enable>
+		<enablesmartmonondevice type="bool">1</enablesmartmonondevice>
+	</smartd>
+	<ad>
+		<domaincontrollername/>
+		<domainname_dns/>
+		<domainname_netbios/>
+		<username>Administrator</username>
+		<password/>
+	</ad>
+	<ldap>
+		<hostname/>
+		<base/>
+		<anonymousbind/>
+		<binddn/>
+		<bindpw/>
+		<rootbinddn/>
+		<rootbindpw/>
+		<pam_password/>
+		<user_suffix/>
+		<group_suffix/>
+		<password_suffix/>
+		<machine_suffix/>
+		<auxparam>ldap_version 3</auxparam>
+		<auxparam>timelimit 30</auxparam>
+		<auxparam>bind_timelimit 30</auxparam>
+		<auxparam>bind_policy soft</auxparam>
+		<auxparam>pam_ldap_attribute uid</auxparam>
+	</ldap>
+	<ups>
+		<upsname>ups1</upsname>
+		<shutdownmode>onbatt</shutdownmode>
+		<shutdowntimer>30</shutdowntimer>
+		<email>
+			<to/>
+			<subject>UPS notification from %h</subject>
+		</email>
+		<ups2_upsname>ups2</ups2_upsname>
+	</ups>
+	<tftpd>
+		<dir/>
+		<extraoptions/>
+		<port/>
+		<username>nobody</username>
+		<umask/>
+		<timeout/>
+		<maxblocksize/>
+	</tftpd>
+	<lcdproc>
+		<driver>hd44780</driver>
+		<port>13666</port>
+		<waittime>10</waittime>
+		<titlespeed>10</titlespeed>
+		<param># USB connected HD44780 based LCD</param>
+		<param>ConnectionType=lcd2usb</param>
+		<param>Contrast=825</param>
+		<param>Brightness=4</param>
+		<param>OffBrightness=0</param>
+		<param>Keypad=yes</param>
+		<param>Backlight=yes</param>
+		<param>Size=20x4</param>
+		<param>KeyDirect_1=Enter</param>
+		<param>KeyDirect_2=Down</param>
+		<param>KeyDirect_3=Escape</param>
+		<lcdproc>
+			<param>[CPU]</param>
+			<param>Active=True</param>
+			<param>OnTime=1</param>
+			<param>OffTime=2</param>
+			<param>ShowInvisible=false</param>
+			<param>[Iface]</param>
+			<param>Active=True</param>
+			<param>Interface0=re0</param>
+			<param>Alias0=LAN</param>
+			<param>#Interface1=em0</param>
+			<param>#Alias1=WAN</param>
+			<param>[Iface]</param>
+			<param>Active=True</param>
+			<param>Interface0=re0</param>
+			<param>Alias0=LAN</param>
+			<param>#Interface1=em0</param>
+			<param>#Alias1=WAN</param>
+			<param>#Interface2=em1</param>
+			<param>#Alias2=MGMT</param>
+			<param>unit=bit</param>
+			<param>#transfer=TRUE</param>
+			<param>[Memory]</param>
+			<param>Active=True</param>
+			<param>[Load]</param>
+			<param>Active=True</param>
+			<param>LowLoad=0.05</param>
+			<param>HighLoad=1.3</param>
+			<param>[TimeDate]</param>
+			<param>Active=True</param>
+			<param>TimeFormat=&quot;%H:%M:%S&quot;</param>
+			<param>DateFormat=&quot;%x&quot;</param>
+			<param>[About]</param>
+			<param>Active=false</param>
+			<param>[SMP-CPU]</param>
+			<param>Active=false</param>
+			<param>[OldTime]</param>
+			<param>Active=false</param>
+			<param>TimeFormat=&quot;%H:%M:%S&quot;</param>
+			<param>DateFormat=&quot;%x&quot;</param>
+			<param>[BigClock]</param>
+			<param>Active=false</param>
+			<param>[Uptime]</param>
+			<param>Active=false</param>
+			<param>[Battery]</param>
+			<param>Active=false</param>
+			<param>[CPUGraph]</param>
+			<param>Active=false</param>
+			<param>[ProcSize]</param>
+			<param>Active=false</param>
+			<param>[Disk]</param>
+			<param>Active=false</param>
+			<param>[MiniClock]</param>
+			<param>Active=false</param>
+			<param>TimeFormat=&quot;%H:%M&quot;</param>
+		</lcdproc>
+	</lcdproc>
+	<rrdgraphs/>
+	<vbox>
+		<homedir/>
+	</vbox>
+	<smartmontools>
+		<umass/>
+	</smartmontools>
+	<vinterfaces/>
+</nas4free>
